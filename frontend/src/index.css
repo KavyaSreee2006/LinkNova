@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply transition-colors duration-200 bg-slate-50 text-slate-900;
+  }
+  body.dark {
+    @apply bg-slate-950 text-slate-100;
+  }
+}
+
+/* Premium Grid Pattern Background */
+.grid-bg-dark {
+  background-image: 
+    linear-gradient(to right, rgba(99, 102, 241, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.grid-bg-light {
+  background-image: 
+    linear-gradient(to right, rgba(99, 102, 241, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(99, 102, 241, 0.04) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* Glassmorphism custom card designs with strong backdrop blur and borders */
+.glass-panel {
+  @apply bg-white/75 dark:bg-slate-900/40 backdrop-blur-xl border border-slate-200/60 dark:border-slate-800/50 shadow-glass-light dark:shadow-glass-dark;
+}
+
+.glass-panel-hover {
+  @apply hover:bg-white/90 dark:hover:bg-slate-900/60 transition-all duration-300;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 dark:bg-slate-700 rounded-full hover:bg-slate-400 dark:hover:bg-slate-600;
+}
+
+/* Advanced Animating Mesh Gradients */
+@keyframes float-slow {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1);
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    transform: translate(-20px, -40px) scale(1.15);
+    filter: hue-rotate(15deg);
+  }
+}
+
+@keyframes float-reverse {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1.1);
+  }
+  50% {
+    transform: translate(40px, 30px) scale(0.9);
+  }
+}
+
+@keyframes float-drift {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  50% {
+    transform: translate(-30px, 20px) scale(1.1);
+  }
+}
+
+.animate-float-1 {
+  animation: float-slow 14s ease-in-out infinite alternate;
+}
+
+.animate-float-2 {
+  animation: float-reverse 18s ease-in-out infinite alternate;
+}
+
+.animate-float-3 {
+  animation: float-drift 22s ease-in-out infinite alternate;
+}
+
+.animate-pulse-subtle {
+  animation: float-slow 6s ease-in-out infinite alternate;
+}
