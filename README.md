@@ -184,9 +184,11 @@ npm run dev      # Starts Vite dev server on http://localhost:5173
 ```
 
 ---
-## 🏗️ Demonstration video
+## 🎥 Video Explanation
 
+Watch the complete project explanation and demo here:
 
+▶️ YouTube Video: [https://youtu.be/WRlmZZvhpII?si=SmudD0A3jPWYoB5A](url)
 
 ## 🌐 Production Deployment Guidelines
 
