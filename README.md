@@ -188,7 +188,8 @@ npm run dev      # Starts Vite dev server on http://localhost:5173
 
 Watch the complete project explanation and demo here:
 
-▶️ YouTube Video: [https://www.youtube.com/watch?v=WRlmZZvhpII](url)
+▶️ YouTube Video: https://youtu.be/WRlmZZvhpII
+
 
 “This project is a part of a hackathon run by https://katomaran.com "
 
