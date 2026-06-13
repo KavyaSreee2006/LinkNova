@@ -191,8 +191,6 @@ Watch the complete project explanation and demo here:
 ▶️ YouTube Video: https://youtu.be/WRlmZZvhpII
 
 
-“This project is a part of a hackathon run by https://katomaran.com "
-
 ## 🌐 Production Deployment Guidelines
 
 ### 1. Database Deployment (MongoDB)
@@ -211,3 +209,4 @@ Watch the complete project explanation and demo here:
 *   Deploy the `dist/` folder.
 *   Configure the dashboard build variables so that requests point to the production Backend URL (configure `API_BASE_URL` in `src/context/AuthContext.jsx` or read it from an `.env` variable).
 *   Add redirect rules (like `_redirects` for Netlify or `vercel.json` rewrite configs) to redirect all client paths to `/index.html` to allow React Router client-side routing to function correctly.
+*   “This project is a part of a hackathon run by https://katomaran.com "
