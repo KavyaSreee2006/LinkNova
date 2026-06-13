@@ -190,6 +190,8 @@ Watch the complete project explanation and demo here:
 
 ▶️ YouTube Video: [https://youtu.be/WRlmZZvhpII?si=SmudD0A3jPWYoB5A](url)
 
+“This project is a part of a hackathon run by https://katomaran.com "
+
 ## 🌐 Production Deployment Guidelines
 
 ### 1. Database Deployment (MongoDB)
